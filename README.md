@@ -12,7 +12,7 @@ To run this program, perform the following:
 
 1) Clone this project into your IDE (Vs Code, IntelliJ, etc).
 
-2) You must have the [.NET Core SDK](https://dotnet.microsoft.com/en-us/download) downloaded.
+2) Make sure you have the [.NET Core SDK](https://dotnet.microsoft.com/en-us/download) downloaded.
 
 3) Once this is downloaded, navigate into the /Program folder of the project using your IDE terminal.
 
