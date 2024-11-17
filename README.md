@@ -16,6 +16,8 @@ To run this program, perform the following:
 
 3) Once this is downloaded, navigate into the /Program folder of the project using your IDE terminal.
 
-4) Now, run the dotnet run command. You'll then see the output of the Python Scripts in your IDE.
+4) Run the dotnet build command. This should generate all the .NET files needed.
+  
+5) Now run the dotnet run command. This will execute the Program.cs file, and you'll be able to see the output of the Python Scripts in your IDE.
 
 
