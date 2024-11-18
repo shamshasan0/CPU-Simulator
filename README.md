@@ -5,7 +5,9 @@
 * .NET
 
 ## About
-For my CS3502 Operating Systems class, there are two phases. For phase 1, I have tested 2 different algorithms, Round Robin and FCFS, to compare performance of speed for average CPU Waiting and Arrival Times. Using Python, I wrote scripts for each algorithm to have a look at performance and trade-offs with different sets of data. I connected these scripts to the Program.cs file that the .NET framework generates for execution, and ran the program. 
+For my CS3502 Operating Systems class, there are two phases. 
+
+For Phase 1, I have tested 2 different algorithms, Round Robin and FCFS, to compare performance of speed for average CPU Waiting and Arrival Times. Using Python, I wrote scripts for each algorithm to have a look at performance and trade-offs with different sets of data. I connected these scripts to the Program.cs file that the .NET framework generates for execution, and ran the program. 
 
 
 For Phase 2, I implemented a deadlock fix using a resource allocation graph for both algorithms. This logic is inside resource_allocation_graph.py, with both python scripts of the algorithms utilizing it.
