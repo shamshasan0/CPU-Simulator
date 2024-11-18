@@ -7,10 +7,12 @@ class Program
     {
         string scriptPath1 = "/Users/shamshasan/SchoolFolders/operatingSystems/CPU-Simulator-GUI/Scripts/fcfs_scheduling.py";
         string scriptPath2 = "/Users/shamshasan/SchoolFolders/operatingSystems/CPU-Simulator-GUI/Scripts/round_robin_scheduling.py";
+
         string pythonExecutable = "python3";
 
         ExecutePythonScript(scriptPath1, pythonExecutable);
         ExecutePythonScript(scriptPath2, pythonExecutable);
+
     }
 
     static void ExecutePythonScript(string scriptPath, string pythonExecutable)
