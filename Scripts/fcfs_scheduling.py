@@ -1,3 +1,5 @@
+from resource_allocation_graph import ResourceAllocationGraph
+
 def findWaitingTime(processes, n, bt, wt):
     wt[0] = 0
     for i in range(1, n):
@@ -17,7 +19,6 @@ def findavgTime(processes, n, bt):
     findTurnAroundTime(processes, n, bt, wt, tat)
 
     print("Process ID | Burst Time | Waiting Time | Turnaround Time")
-    
     for i in range(n):
         total_wt += wt[i]
         total_tat += tat[i]
@@ -26,9 +27,21 @@ def findavgTime(processes, n, bt):
     print("\nAverage Waiting Time =", total_wt / n)
     print("Average Turnaround Time =", total_tat / n)
 
-if __name__ == "__main__":
+def test_deadlock_scenario():
+    rag = ResourceAllocationGraph(3, 2)
+    rag.available = [2, 2]  # Initial resources available
+
+    rag.allocate_resources(0, [1, 1])  # Process 0 allocates [1, 1]
+    rag.allocate_resources(1, [1, 0])  # Process 1 allocates [1, 0]
+    rag.request_resources(2, [1, 1])  # Process 2 requests [1, 1]
+
+    print("\nDeadlock Detection:")
+    if rag.detect_deadlock():
+        rag.handle_deadlock()
+
     processes = [1, 2, 3]
-    n = len(processes)
     burst_time = [10, 5, 8]
-    
-    findavgTime(processes, n, burst_time)
+    findavgTime(processes, len(processes), burst_time)
+
+if __name__ == "__main__":
+    test_deadlock_scenario()
