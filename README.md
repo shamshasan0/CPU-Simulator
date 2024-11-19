@@ -2,7 +2,7 @@
 
 ### Tools Used: 
 * Python
-* .NET C# Framework
+* .NET framework
 
 ## About
 For my CS3502 Operating Systems class, there are two phases. 
