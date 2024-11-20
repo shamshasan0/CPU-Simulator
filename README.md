@@ -5,7 +5,7 @@
 * .NET framework
 
 ## About
-For my CS3502 Operating Systems class, there are two phases. 
+This project is for my CS3502 Operating Systems class; there are two phases. 
 
 For Phase 1, I have tested 2 different algorithms, Round Robin and FCFS, to compare performance of speed for average CPU Waiting and Turnaround Times. Using Python, I wrote scripts for each algorithm to have a look at performance and trade-offs with different sets of data. I connected these scripts to the Program.cs file that the .NET framework generates for execution, and ran the program. 
 
