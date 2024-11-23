@@ -1,9 +1,5 @@
 # CPU-Simulator
 
-### Tools Used: 
-* Python
-* .NET framework
-
 ## About
 This project is for my CS3502 Operating Systems class; there are two phases. 
 
@@ -16,7 +12,9 @@ For Phase 2, I implemented a deadlock fix using a resource allocation graph for 
 
 [See Report Here](https://docs.google.com/document/d/1c2l6cxlio8eQtGSiJacVQWZvMLLnArs5ruE5ClLSuFI/edit?usp=sharing)
 
-
+### Tools Used: 
+* Python
+* .NET framework
 
 ## Usage
 To run this program, perform the following:
